@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from streamlit import cli as stcli
 st.title("TOP 20 RESTAURANTS IN SYDNEY")
 st.write('''Have you ever wanted to grab great food and tried to search for the best local restaurants and food
          spots but you spend way more time reading reviews than actually getting a feed? Well,
@@ -410,7 +411,7 @@ with Sáng_by_Mabasa:
 
 
 if __name__ == '__main__':
-    main()     
+    stcli.main()     
 
 
 
