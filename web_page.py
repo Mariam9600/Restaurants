@@ -409,6 +409,8 @@ with Sáng_by_Mabasa:
     col5.image(img, use_column_width=True)
 
 
+if __name__ == '__main__'
+    main()     
 
 
 
