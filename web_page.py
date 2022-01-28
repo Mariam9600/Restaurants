@@ -28,7 +28,7 @@ William_Street=st.container()
 Sáng_by_Mabasa =st.container()
 
 
-fob=open('Ratings.txt', 'r')
+fob=open('Ratings.txt', 'r', encoding='utf-8')
 names=[]
 ratings=[]
 for line in fob.readlines():
@@ -45,7 +45,7 @@ for line in fob.readlines():
 names=names[1:]
 ratings=ratings[1:]
 
-fob_website=open("website.txt", 'r')
+fob_website=open("website.txt", 'r', encoding='utf-8')
 lines=fob_website.readlines()
 line=2
 line_address=0
